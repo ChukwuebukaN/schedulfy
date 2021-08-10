@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import CreateSchedule from './pages/CreateSchedule';
+import CreateSchedule from './components/CreateSchedule';
 
 function Routes(){
     return (
