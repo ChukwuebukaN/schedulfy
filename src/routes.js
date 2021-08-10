@@ -1,13 +1,16 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CreateSchedule from './pages/CreateSchedule';
 
-export default function Routes(){
+function Routes(){
     return (
-        <div>
-            <Route path='/HomePage' component={HomePage} />
-            <Route path='/CreateSchedule' component={CreateSchedule} />
-        </div>
+        <BrowserRouter>
+            <Switch>
+                <Route exact path='/' component={HomePage} />
+                <Route path='/createschedule' component={CreateSchedule} />
+            </Switch>
+        </BrowserRouter>
     );
 }
+export default Routes;
