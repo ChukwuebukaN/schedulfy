@@ -8,7 +8,7 @@ function Routes(){
         <BrowserRouter>
             <Switch>
                 <Route exact path='/' component={HomePage} />
-                <Route path='/createschedule' component={CreateSchedule} />
+                <Route path='/CreateSchedule' component={CreateSchedule} />
             </Switch>
         </BrowserRouter>
     );
