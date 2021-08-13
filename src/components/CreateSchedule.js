@@ -2,9 +2,9 @@ import React from 'react';
 
 function CreateSchedule() {
   return (
-    <div className='bg-red mt-8'>
-      dgsdfsfsdsa SCHHHHH
-      <p>dfswddcsdcdscds</p>
+    <div className=''>
+      <h1>Schedulfy</h1>
+      <p></p>
     </div>
   );
 }
