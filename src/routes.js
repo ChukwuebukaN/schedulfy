@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import HomePage from "./components/homePage/HomePage";
+import HomePage from "./components/homePage/homePage";
 // import CreateSchedule from "./components/createSchedule/CreateSchedule";
 
 const lazyCreateSchedule = React.lazy(() =>
-  import("./components/createSchedule/CreateSchedule")
+  import("./components/createSchedule/createSchedule")
 );
 
 function Routes() {

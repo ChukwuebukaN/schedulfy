@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import SchedulfyLogoBlack from "./SchedulfyLogoBlack.png";
+import SchedulfyLogoBlack from "./schedulfyLogoBlack.png";
 // import Date
 
 function HomePage() {
