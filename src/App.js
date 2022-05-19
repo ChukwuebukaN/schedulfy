@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./components/homePage/HomePageStyle.css";
+import "./components/homePage/homePage.css";
 import Routes from "./routes";
 
 // const API_KEY = process.env.REACT_APP_API_KEY

@@ -1,5 +1,5 @@
 import React from "react";
-import SchedulfyIconBlack from "./schedulfyIconBlack.png";
+import SchedulfyIconBlack from "../../assets/schedulfyIconBlack.png";
 
 function CreateSchedule() {
   return (

@@ -1,35 +1,33 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import SchedulfyLogoBlack from "./schedulfyLogoBlack.png";
-// import Date
+import { ReactComponent as SchedulfyIcon } from "../../assets/schedulfy-icon.svg";
+import { ReactComponent as SchedulfyLogo } from "../../assets/schedulfy-logo-black.svg";
 
 function HomePage() {
   const history = useHistory();
 
+  /** Routes user to create schedule page */
   const handleCreateSchedule = () => {
     history.push("/CreateSchedule");
   };
 
   return (
-    <div className="flex h-screen">
-      <div className="m-auto">
-        <h1 className="text-center text-6xl font-black pb-8">Schedulfy</h1>
-        <img
-          src={SchedulfyLogoBlack}
-          alt="Schedulfy Logo"
-          className="mx-auto p-8"
-        />
-        <h2 className="text-center text-2xl font-black pb-8">
-          Organize Your Week
-        </h2>
-        <div className="grid justify-items-center">
+    <div>
+      <SchedulfyIcon className="left-0 mt-4 ml-4 w-10 h-10 fixed" />
+      <div className="flex h-screen p-4">
+        <div className="m-auto text-center">
+          <SchedulfyLogo className="w-80 mb-14" />
           <button
             type="button"
+            className="create-schedule-btn"
             onClick={handleCreateSchedule}
-            className="text-white font-bold rounded-lg py-2 px-4 border-2 border-green-700 bg-green-400 hover:bg-green-500"
           >
-            Create Schedule
+            Organize Your Week 👋
           </button>
+          {/* <h2 className="text-center text-lg font-bold mb-10 mt-4">
+          </h2> */}
+          {/* <div className="grid justify-items-center">
+          </div> */}
         </div>
       </div>
     </div>
