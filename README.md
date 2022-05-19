@@ -1,5 +1,6 @@
 # Schedulfy
-A React Progressive Web App that revolutionizes time management for millennials, professionals and students!
+
+Revolutionizing time management for millennials, professionals and students!
 
 ## https://create-react-app.dev/docs/making-a-progressive-web-app/
 ## npm i axios
